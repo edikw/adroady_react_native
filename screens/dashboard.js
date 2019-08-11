@@ -2,9 +2,7 @@ import React from 'react';
 import {View, Text, Alert, ScrollView} from 'react-native';
 import { Card, Button } from 'react-native-elements';
 import axios from 'axios';
-import Table from 'react-native-simple-table'
-
-
+import Table from 'react-native-simple-table';
 
 export default class Dashboard extends React.Component {
 	constructor () {
